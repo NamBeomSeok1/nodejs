@@ -1,4 +1,4 @@
-var fs = require('fs');
+const fs = require('fs');
 var date = new Date();
 fs.writeFileSync('latestdate.txt', date, 'utf8');
-  console.log("Sync Write Complete");
+console.log("Sync Write Complete");
